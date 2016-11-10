@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>jQuery.quot</title>
+<link rel="stylesheet" href="quot.css">
+</head>
+<body>
+<div class="box">
+  
+</div>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="jQuery.quot-1.0.js"></script>
+<script>
+$(function(){
+
+  var p = [
+        { quo: "Lorem ipsum dolor sit amet", name: "Test name1", src: 'http://vignette2.wikia.nocookie.net/steamplane/images/b/b0/Happy_Face_100x100.gif' },
+        { quo: "consectetur adipisicing elit. Molestias", name: "Test name2", src: 'http://vignette3.wikia.nocookie.net/adventuretimewithfinnandjake/images/e/e4/At_100x100_iconjake.jpg' },
+        { quo: "consequuntur, quo distinctio fugiat aspernatur incidunt", name: "Test name3", src: 'http://www.animated-gifs.eu/category_cartoons/avatars-100x100-cartoons-spongebob/0038.gif' },
+        { quo: "ab laudantium voluptatum repudiandae recusandae odit modi possimus porro", name: "Test name4", src: 'http://www.avatarsdb.com/avatars/spongebob_happy.jpg' },
+        { quo: "mollitia explicabo omnis", name: "Test name5", src: 'https://c2.staticflickr.com/2/1047/5101973919_7714cdfc41_o.jpg' },
+        { quo: "dignissimos sapiente dolorum.", name: "Test name6", src: 'http://www.avatarsdb.com/avatars/say_cheese.jpg' }
+      ];
+
+  $('.box').quot({ q: p });
+});
+</script>
+</body>
+</html>

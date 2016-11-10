@@ -1,0 +1,17 @@
+.box{
+  border: 1px solid red;
+}
+.quot-item{
+  //display: none;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  -ms-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s;
+}
+.quot-item.active{
+  display: block;
+  opacity: 1;
+}
