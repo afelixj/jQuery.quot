@@ -8,11 +8,19 @@
         { quo: "Test quote5", name: "Test name5", src: 'https://c2.staticflickr.com/2/1047/5101973919_7714cdfc41_o.jpg' },
         { quo: "Test quote6", name: "Test name6", src: 'http://www.avatarsdb.com/avatars/say_cheese.jpg' }
       ],
-      itemClass: 'quot-item'
+      itemClass: 'quot-item',
+      jsonPath: null
     }
     function Quot (element, options){
       this.options = $.extend(defaults, options);
       this.element = element;
+      if(this.options.jsonPath){
+        $.getJSON(this.options.jsonPath, function(json) {
+            // this.options.q = json;
+            console.log(json);
+        });
+      }
+      console.log(this.options.q)
       this.Init();
     setInterval($.proxy(this.fade, this), 2000);
     }

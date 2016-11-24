@@ -1,0 +1,8 @@
+[
+  { "quo": "Test quote1", "name": "Test name1", "src": "http://lorempixel.com/200/200/" },
+  { "quo": "Test quote2", "name": "Test name2", "src": "http://lorempixel.com/200/200/" },
+  { "quo": "Test quote3", "name": "Test name3", "src": "http://lorempixel.com/200/200/" },
+  { "quo": "Test quote4", "name": "Test name4", "src": "http://lorempixel.com/200/200/" },
+  { "quo": "Test quote5", "name": "Test name5", "src": "http://lorempixel.com/200/200/" },
+  { "quo": "Test quote6", "name": "Test name6", "src": "http://lorempixel.com/200/200/" }
+]
