@@ -15,12 +15,11 @@
       this.options = $.extend(defaults, options);
       this.element = element;
       if(this.options.jsonPath){
-        $.getJSON(this.options.jsonPath, function(json) {
-            // this.options.q = json;
-            console.log(json);
+        $.getJSON(this.options.jsonPath, function(j) {
+            // this.options.q = j;
+            console.log(j);
         });
       }
-      console.log(this.options.q)
       this.Init();
     setInterval($.proxy(this.fade, this), 2000);
     }

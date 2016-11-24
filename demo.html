@@ -9,7 +9,7 @@
   
 </div>
 <script src="jquery-3.1.1.min.js"></script>
-<script src="jQuery.quot-1.0.js"></script>
+<script src="quot.js"></script>
 <script>
 $(function(){
 
@@ -22,7 +22,11 @@ $(function(){
         { quo: "dignissimos sapiente dolorum.", name: "Test name6", src: 'http://www.avatarsdb.com/avatars/say_cheese.jpg' }
       ];
 
-  $('.box').quot({ q: p, jsonPath: 'test.json' });
+  $('.box').quot({
+    q: p,
+    jsonPath: 'test.json'
+  });
+
 });
 </script>
 </body>
