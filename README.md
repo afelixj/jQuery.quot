@@ -1,4 +1,4 @@
-# jQuery.quot
+# quot
 quote rotation jQuery plugin.
 
 The jQuery.quot plugin reads JSON data and generates a content rotator wodget.
